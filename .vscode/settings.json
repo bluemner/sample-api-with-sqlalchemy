@@ -1,0 +1,31 @@
+{
+	"editor.tabSize": 4,
+	"editor.insertSpaces": true,
+	"cSpell.words": [
+		"Alchmey",
+		"CORS",
+		"dals",
+		"dateutil",
+		"getenv",
+		"gunicorn",
+		"pylint",
+		"restplus",
+		"rtype",
+		"sqlite",
+		"venv",
+		"werkzeug"
+	],
+	"python.testing.unittestArgs": [
+		"-v",
+		"-s",
+		"./test",
+		"-p",
+		"test_*.py"
+	],
+	"python.testing.pytestEnabled": false,
+	"python.testing.nosetestsEnabled": false,
+	"python.testing.unittestEnabled": true,
+	"python.linting.pylintEnabled": true,
+	"python.linting.enabled": true,
+	"python.pythonPath": "/srv/git/sample-api-with-sqlalchemy/.venv/bin/python3"
+}
